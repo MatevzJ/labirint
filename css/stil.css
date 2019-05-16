@@ -1,0 +1,95 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-image:url("../slike/body1.png");
+}
+
+#bozicek{
+	width:70px;
+	height:66px;
+	background-image:url("../slike/bozicek1.png");
+	margin:70px auto 0px;
+	
+}
+
+#all{
+	position:relative;
+	width:482px;
+	height:482px;
+	margin:0px auto;
+}
+
+#slika{
+	position:absolute;
+}
+
+#maze{
+	position:absolute
+}
+
+#glava{
+	width:400px;
+	height:150px;
+	margin:0px auto;
+	background-color:rgba(255,255,255,0.8);
+	background-image:url("../slike/ChristmasFrame1.png");
+	
+	text-align:center;
+	line-height:150px;
+	/*border:5px solid transparent;
+	border-image:url("../slike/smrecje1.png") 30 round;*/
+	font-family:Christmasimport;
+}
+
+@font-face{
+	font-family:Christmasimport; src:url('../font/Christmas.ttf');
+}
+
+#kamin{
+	width:420px;
+	height:210px;
+	margin:0 auto;
+	background-image:url("../slike/kosara.png");
+}
+
+#darilo1
+{
+	width:90px;
+	height:90px;
+	background-image:url("../slike/darilo3.png");
+	margin-left:50px;
+	margin-top:40px;
+	float:left;
+	visibility:hidden;
+}
+#darilo2
+{
+	width:90px;
+	height:90px;
+	background-image:url("../slike/darilo2.png");
+	float:left;
+	margin-left:80px;
+	margin-top:40px;
+	visibility:hidden;
+}
+#darilo3
+{
+	width:90px;
+	height:90px;
+	background-image:url("../slike/darilo1.png");
+	margin-left:120px;
+	visibility:hidden;
+}
+
+.naslov{
+	font-size:50px;
+	color:red;
+}
+
+.naslov1{
+	font-size:50px;
+	color:green;
+}
